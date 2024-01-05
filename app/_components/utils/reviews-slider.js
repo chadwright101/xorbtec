@@ -28,7 +28,7 @@ const ReviewsSlider = ({ reviews, cssClasses }) => {
         return (
           <SplideSlide key={index}>
             <blockquote className="font-myriadpro text-black">
-              "{review}"
+              &quot;{review}&quot;
               <br />
               <br />
               <cite className="font-code font-bold">{name}</cite>

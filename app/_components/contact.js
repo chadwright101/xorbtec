@@ -11,6 +11,7 @@ import {
   showLanEmailAddress,
   showPhoneNumber,
 } from "../actions";
+import Image from "next/image";
 
 const LazyContactMap = lazy(() => import("./contact/contact-map"));
 
@@ -136,7 +137,7 @@ const Contact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
+                  <Image
                     src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/logo/teamviewer-logo.png"
                     alt="Team Viewer logo"
                     height={60}
@@ -153,7 +154,7 @@ const Contact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
+                  <Image
                     src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/discord-branding-2.png"
                     alt="Discord logo"
                     width={200}

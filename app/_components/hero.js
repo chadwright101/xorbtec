@@ -6,6 +6,7 @@ import useInView from "./utils/use-in-view";
 import { scrollIntoView } from "./navigation/header/desktop-header";
 import ImageComponent from "./utils/image-component";
 import Layout from "./utils/layout";
+import Image from "next/image";
 
 const Hero = () => {
   const [inView, setInView] = useState(false);
@@ -76,10 +77,12 @@ const Hero = () => {
           onClick={() => scrollIntoView("who-we-are")}
           className="hover:cursor-pointer"
         >
-          <img
+          <Image
             src="/icons/down-arrows.svg"
             alt="Down arrows icon"
             className="w-[40px] h-[43px] animate-bounce"
+            height={43}
+            width={40}
           />
         </a>
       </picture>

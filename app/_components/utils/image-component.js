@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const ImageComponent = ({
   folder,
   tablet,
@@ -48,7 +50,7 @@ const ImageComponent = ({
           desktop || 1450
         },q-${quality || 60}/${file}`}
       />
-      <img
+      <Image
         src={`https://ik.imagekit.io/thewrightdesigns/xorbtec/${folder}/tr:w-${
           smallest || 425
         },q-${quality || 60}/${!upToTabletFile ? file : upToTabletFile}`}

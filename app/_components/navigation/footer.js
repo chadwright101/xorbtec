@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 const Footer = () => {
   return (
     <>
       <div className="h-[5px] mb-14 w-full bg-white tablet:mb-8 max-w-[1550px] desktop:mx-auto"></div>
       <footer className="pb-8 mx-[30px] max-w-[1400px] tablet:flex tablet:justify-between tablet:items-center desktop:mx-auto">
         <div>
-          <img
+          <Image
             src="https://ik.imagekit.io/thewrightdesigns/xorbtec/logo/tr:ar-1-1,h-116/logo-white.png"
             alt="Xorbtec logo"
             className="h-[60px] w-auto hidden tablet:block"

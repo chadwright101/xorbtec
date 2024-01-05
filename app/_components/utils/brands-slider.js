@@ -1,6 +1,7 @@
 "use client";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
+import Image from "next/image";
 
 const BrandsSlider = ({ row1Data, row2Data, cssClasses }) => {
   return (
@@ -28,7 +29,7 @@ const BrandsSlider = ({ row1Data, row2Data, cssClasses }) => {
               whiteBackground && "bg-white p-2"
             }`}
           >
-            <img
+            <Image
               src={`https://ik.imagekit.io/thewrightdesigns/xorbtec/brands/tr:h-75,q-60/${url}`}
               alt={alt}
               className="h-auto max-h-[50px] w-auto"
@@ -62,7 +63,7 @@ const BrandsSlider = ({ row1Data, row2Data, cssClasses }) => {
               whiteBackground && "bg-white p-2"
             }`}
           >
-            <img
+            <Image
               src={`https://ik.imagekit.io/thewrightdesigns/xorbtec/brands/tr:h-60,q-60/${url}`}
               alt={alt}
               className="h-auto w-auto max-h-[50px]"

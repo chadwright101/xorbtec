@@ -7,6 +7,7 @@ import useInView from "../../utils/use-in-view";
 import data from "../../../_data/general-data.json";
 import { scrollIntoView } from "./desktop-header";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const { navigation } = data;
 
@@ -32,14 +33,14 @@ const MobileHeader = ({ cssClasses }) => {
             <h1 className="text-[34px] phone:text-[48px]">
               <span className="text-blue">Xorb</span>tec
             </h1>
-            <img
+            <Image
               src="/icons/dashed-lines-mobile.png"
               alt="Dashed lines"
               className="phone:hidden -mt-[5px] mb-1"
               width={142}
               height={2}
             />
-            <img
+            <Image
               src="/icons/dashed-lines-tablet.png"
               alt="Dashed lines"
               className="hidden phone:block -mt-2 mb-1"
@@ -54,7 +55,7 @@ const MobileHeader = ({ cssClasses }) => {
         {pathname === "/" ? (
           <div className={`${cssClasses}`}>
             <div onClick={() => setIsOpen(true)} className="p-6 -m-6 z-10">
-              <img
+              <Image
                 src="/icons/menu-icon.svg"
                 alt="Open menu"
                 width={37}
@@ -84,7 +85,7 @@ const MobileHeader = ({ cssClasses }) => {
                 )}
               </ul>
               <div onClick={() => setIsOpen(false)} className="p-6 -m-6">
-                <img
+                <Image
                   src="/icons/close-icon.svg"
                   alt="Close menu"
                   className="translate-x-1.5 -translate-y-[62px]"

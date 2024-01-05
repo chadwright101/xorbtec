@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 import useInView from "../../utils/use-in-view";
@@ -37,7 +37,7 @@ const DesktopHeader = () => {
           href="/"
           ref={elementRef}
         >
-          <img
+          <Image
             src="https://ik.imagekit.io/thewrightdesigns/xorbtec/logo/tr:ar-1-1,h-116/logo-blue.png"
             alt="Xorbtec logo"
             className="h-[58px] w-auto translate-y-1"
@@ -49,7 +49,7 @@ const DesktopHeader = () => {
             <h1 className="text-[36px]">
               <span className="text-blue">Xorb</span>tec
             </h1>
-            <img
+            <Image
               src="/icons/dashed-lines-desktop.png"
               alt="Dashed lines"
               className="-mt-1 mb-1"
