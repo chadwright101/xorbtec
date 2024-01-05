@@ -1,0 +1,265 @@
+{
+  "navigation": [
+    {
+      "title": "Home",
+      "url": "home"
+    },
+    {
+      "title": "Who We Are",
+      "url": "who-we-are"
+    },
+    {
+      "title": "Brands",
+      "url": "brands"
+    },
+    {
+      "title": "Reviews",
+      "url": "reviews"
+    },
+    {
+      "title": "Contact",
+      "url": "contact"
+    }
+  ],
+  "images": {
+    "brands": {
+      "row1": [
+        {
+          "url": "cudy-logo.webp",
+          "alt": " logo"
+        },
+        {
+          "url": "jbl-logo.png",
+          "alt": " logo"
+        },
+        {
+          "url": "xiaomi-logo.png",
+          "alt": " logo"
+        },
+        {
+          "url": "1024px-HP_logo_2012a.svg.png",
+          "alt": "HP logo"
+        },
+        {
+          "url": "Corsair-PNG-Filea.png",
+          "alt": "Corsair logo",
+          "whiteBackground": true
+        },
+        {
+          "url": "lenovo-logo-0a.png",
+          "alt": "Lenovo logo"
+        },
+        {
+          "url": "aorus-logo-1a.png",
+          "alt": " logo"
+        },
+        {
+          "url": "deepcool-logo.png",
+          "alt": " logo"
+        },
+        {
+          "url": "6e875f71b152b7143a.png",
+          "alt": "UGreen logo"
+        },
+        {
+          "url": "orico-logo-1.png",
+          "alt": " logo"
+        },
+        {
+          "url": "Toshiba_logoa.svg.png",
+          "alt": "Toshiba logo"
+        },
+        {
+          "url": "Energizer_logoa.svg.png",
+          "alt": "Eneregizer logo",
+          "whiteBackground": true
+        },
+        {
+          "url": "Romoss-Logo-PNG-1-1024x492a.png",
+          "alt": "Romoss logo"
+        },
+        {
+          "url": "tp-link-logo.png",
+          "alt": " logo"
+        },
+        {
+          "url": "gizzu-logo.png",
+          "alt": " logo"
+        },
+        {
+          "url": "sandisk-logo.png",
+          "alt": " logo"
+        },
+        {
+          "url": "AsusTek-black-logoa.png",
+          "alt": "AsusTek logo",
+          "whiteBackground": true
+        },
+        {
+          "url": "everki-logo.png",
+          "alt": " logo"
+        }
+      ],
+      "row2": [
+        {
+          "url": "canyon-gaming-logo.png",
+          "alt": " logo"
+        },
+        {
+          "url": "equip-logo.jpg",
+          "alt": " logo"
+        },
+        {
+          "url": "d-link-logo.png",
+          "alt": " logo"
+        },
+        {
+          "url": "t-dagger-logo.png",
+          "alt": " logo"
+        },
+        {
+          "url": "Acer-Logo_2011a.png",
+          "alt": "Acer logo"
+        },
+        {
+          "url": "logitecha.png",
+          "alt": "Logitech logo",
+          "whiteBackground": true
+        },
+        {
+          "url": "dell-png-logo-0a.png",
+          "alt": "Dell logo"
+        },
+        {
+          "url": "channels4_profilea.jpg",
+          "alt": "NZXT logo"
+        },
+        {
+          "url": "fifine-logo-1.png",
+          "alt": " logo"
+        },
+        {
+          "url": "antec-logo-1.png",
+          "alt": " logo"
+        },
+        {
+          "url": "microlab-logo.jpg",
+          "alt": " logo"
+        },
+        {
+          "url": "tenda-logo.png",
+          "alt": " logo"
+        },
+        {
+          "url": "original-samsung-logo-10a.png",
+          "alt": "Samsung logo"
+        },
+        {
+          "url": "huntkey-logo.png",
+          "alt": " logo"
+        },
+        {
+          "url": "cooler-master-logo.png",
+          "alt": " logo"
+        },
+        {
+          "url": "astrum-logo.png",
+          "alt": " logo"
+        },
+        {
+          "url": "port-designs-logo.png",
+          "alt": " logo"
+        },
+        {
+          "url": "Ellies_Hi-res_Logo-01-1-1024x308a.png",
+          "alt": "Ellies logo"
+        },
+        {
+          "url": "6011a71e1b7ff00004506b10a.png",
+          "alt": "Red Dragon logo"
+        }
+      ]
+    }
+  },
+  "reviews": [
+    {
+      "name": "Jayne Stedall",
+      "review": "I am living overseas and I had to call Matt to ask for him to sort out my elderly parents computer.  Nothing was too much trouble - he went out on a Saturday afternoon and returned early Monday morning- having had to wait for Mweb to connect us again- and got it working.  I am so grateful for his time and patience - when he had three members of the family , one in UK, one in Melbourne and one in NZ all asking his advise.  I would highly recommend Matt - nothing seemed to be too difficult or troublesome for him.. Top service - thank you so much Matt"
+    },
+
+    {
+      "name": "Nicky Plett",
+      "review": "Amazing five star service. Matt saved the day! Friendly, professional, efficient and on point. Highly recommend Xorbtec in Plett! Thanks for the super service."
+    },
+    {
+      "name": "Riyaad Paruk",
+      "review": "Im based in Plettenberg bay for the last 6 years - and ever since moving from jhb i found that places tend to be a bit higher but i have found that  Matt from Xorbtec prices very reasonable compared to online and big retail companies as well as the bonus of me supporting a local business thanks alot for your help and my weekly troubleshooting and advice you give me"
+    },
+    {
+      "name": "Teresa Da Mata",
+      "review": "Excellent! Great service and super reliable!"
+    },
+    {
+      "name": "Kelly Gendall",
+      "review": "Exceptional service & customer care that us always displayed & exercised by all at Xorbtec. Highly recommend this business to all, big & small businesses as well"
+    },
+
+    {
+      "name": "Ren",
+      "review": "Excellent service. Where do you get someone that still have time to sit down,listen and explain and give you exactly what you wanted."
+    },
+
+    {
+      "name": "Hezzie Ponelat",
+      "review": "Matt and his team are computer and networking superstars. His recommendations have been really helpful."
+    },
+    {
+      "name": "Prestige Plumbing Garden Route",
+      "review": "We have dealt with Matt Beale for many years and his service, attitude and prices are always very pleasing!  He is a real credit to Plett!!!  Keep up the good work, Matt"
+    },
+    {
+      "name": "Ilexssa Songs",
+      "review": "Xorbtec are a 5 star company 😁"
+    },
+    {
+      "name": "Brendon Morris (PlettTube)",
+      "review": "Excellent service! Matt went more than the extra mile to ensure my motherboard problems were resolved. I highly recommend Xorbtec 👌"
+    },
+    {
+      "name": "Kieran \"Lelouch\" Schoonraad",
+      "review": "Matt and his crew are amazing, always offering the best that they can offer, 10/10 would recommend"
+    },
+    {
+      "name": "Ben Roode",
+      "review": "Matt and his team at Xorbtec are the best. I had problems with my PC shutting down randomly, so I took it in. He ran tests for a few hours and everything was fine, so I came back and collected it, and he didn't even charge me anything! I found a faulty power cable when I got back and replaced it, but the problem persisted a few days later. I brought it back to Matt and he advised that replacing the power supply would likely fix the problem, so he did that and got it back to me that same day at around 5:30pm, working overtime just so that I could get my PC back before I left for Cape Town the next day. Superb service, would definitely recommend!"
+    },
+    {
+      "name": "JANET SMITH",
+      "review": "Matt and James were great and sorted out all my issues.  Friendly and professional company to deal with. I bought my new laptop, backpack bag and portable phone charger from them. As I am now overseas, they set me up for online support in case I have any queries. I highly recommend Xorbtec. Thanks guys!"
+    },
+    {
+      "name": "McNeil Wheatley",
+      "review": "Great customer service and support and building custom made desktop PC,thank you Matt"
+    },
+    {
+      "name": "Brendon Morris (PlettTube)",
+      "review": "Excellent service! Matt went more than the extra mile to ensure my motherboard problems were resolved. I highly recommend Xorbtec 👌"
+    },
+    {
+      "name": "Katrina Olwagen",
+      "review": "Great friendly service. Well done Matt."
+    },
+    {
+      "name": "Lizette Vorster",
+      "review": "very good service and friendly staff.  Highly recommended"
+    },
+    {
+      "name": "Warren Bennell",
+      "review": "Great service with a smile! Thanks for the help guys! Gained a customer! -Ginganinja"
+    },
+    {
+      "name": "Christian Spiess",
+      "review": "Awesome service and very friendly people!"
+    }
+  ]
+}

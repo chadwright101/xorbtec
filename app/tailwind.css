@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "prototype";
+        src: url("https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/fonts/prototype/prototype.ttf") format("truetype"),
+            url("https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/fonts/prototype/prototype.woff") format("woff"),
+            url("https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/fonts/prototype/prototype.woff2") format("woff2");
+        font-weight: 400;
+        font-display: fallback;
+    }
+
+
+    @font-face {
+        font-family: "code";
+        src: url("https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/fonts/code/code-light.ttf") format("truetype"),
+            url("https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/fonts/code/code-light.woff") format("woff"),
+            url("https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/fonts/code/code-light.woff2") format("woff2");
+        font-weight: 200;
+        font-display: fallback;
+    }
+
+    @font-face {
+        font-family: "code";
+        src: url("https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/fonts/code/code-bold.ttf") format("truetype"),
+            url("https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/fonts/code/code-bold.woff") format("woff"),
+            url("https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/fonts/code/code-bold.woff2") format("woff2");
+        font-weight: 700;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "myriad-pro";
+        src: url("https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/fonts/myriad-pro/myriadpro-light.ttf") format("truetype"),
+            url("https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/fonts/myriad-pro/myriadpro-light.woff") format("woff"),
+            url("https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/fonts/myriad-pro/myriadpro-light.woff2") format("woff2");
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "hero-fallback";
+        src: local('Impact');
+    }
+
+    @font-face {
+        font-family: "general-fallback";
+        src: local('Tahoma');
+    }
+
+    @font-face {
+        font-family: "myriad-fallback";
+        src: local('Verdana');
+        size-adjust: 80%
+    }
+
+
+}
+
+@layer components {
+    body {
+        @apply bg-black text-white;
+    }
+
+    h1,
+    h2 {
+        @apply text-[40px] uppercase;
+        font-family: "prototype", "general-fallback";
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply text-[24px] uppercase font-bold;
+        font-family: "code", "general-fallback";
+    }
+
+    p,
+    li,
+    a,
+    input,
+    label,
+    textarea,
+    address {
+        @apply text-[18px] text-justify;
+        font-family: myriad-pro, "myriad-fallback";
+    }
+
+    .hero-fallback {
+        font-family: "code", "hero-fallback";
+    }
+
+}
