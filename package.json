@@ -16,7 +16,7 @@
     "express-rate-limit": "^7.1.5",
     "isomorphic-dompurify": "^2.3.0",
     "next": "14.1.0",
-    "nodemailer": "^6.9.9",
+    "nodemailer": "^6.9.11",
     "react": "^18",
     "react-dom": "^18",
     "react-google-recaptcha": "^3.1.0",
