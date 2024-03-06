@@ -15,9 +15,10 @@ export const metadata = {
       "A Gaming Oriented computer repair company located in Plettenberg Bay, South Africa. Specialising in Building Personalised Computers to suit you and your pocket. After sales service a priority.",
     type: "website",
     url: "https://xorbtec.co.za",
-    image:
+    images: [
       "https://ik.imagekit.io/thewrightdesigns/xorbtec/shop/tr:w-1200,q-75/shop-4b.png",
-    site_name: "Xorbtec Computer Services",
+    ],
+    siteName: "Xorbtec Computer Services",
     locale: "en_ZA",
   },
 };
