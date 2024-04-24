@@ -77,7 +77,7 @@ const ContactForm = ({ cssClasses }) => {
                   Email:
                 </label>
                 <input
-                  type="text"
+                  type="email"
                   id="email"
                   name="email"
                   required

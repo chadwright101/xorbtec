@@ -14,7 +14,6 @@ import {
 import Image from "next/image";
 
 const LazyContactMap = lazy(() => import("./contact/contact-map"));
-
 const Contact = () => {
   const [showPhone, setShowPhone] = useState("Show phone number");
   const [showGeneralEmail, setShowGeneralEmail] =
