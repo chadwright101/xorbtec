@@ -14,7 +14,7 @@
     "classnames": "^2.5.1",
     "express": "^4.19.2",
     "express-rate-limit": "^7.2.0",
-    "isomorphic-dompurify": "^2.3.0",
+    "isomorphic-dompurify": "^2.9.0",
     "next": "14.2.3",
     "nodemailer": "^6.9.11",
     "react": "^18",
