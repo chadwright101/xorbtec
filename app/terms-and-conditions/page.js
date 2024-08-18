@@ -10,13 +10,13 @@ const TermsAndConditions = () => {
           <h2 className="mb-2 text-subheading">Acceptance of Terms</h2>
           <p className="mb-2">
             Xorbtec (Pty) Ltd permits the use of this Website subject to these
-            terms and conditions ("the Terms and Conditions"). By using this
-            Website in any way, you shall be deemed to have accepted all the
-            Terms and Conditions unconditionally. You must not use this Website
-            if you do not agree to the Terms and Conditions. Your use of any
-            services offered by us will also be subject to applicable provisions
-            of the Terms and Conditions. In the event of any conflict between
-            the Terms and Conditions and any other conditions stipulated
+            terms and conditions (&quot;the Terms and Conditions&quot;). By
+            using this Website in any way, you shall be deemed to have accepted
+            all the Terms and Conditions unconditionally. You must not use this
+            Website if you do not agree to the Terms and Conditions. Your use of
+            any services offered by us will also be subject to applicable
+            provisions of the Terms and Conditions. In the event of any conflict
+            between the Terms and Conditions and any other conditions stipulated
             elsewhere, the Terms and Conditions as contained herein will
             prevail.
           </p>
@@ -89,12 +89,12 @@ const TermsAndConditions = () => {
             service to all of our customers and visitors of this Website,
             including respecting concerns about privacy. Xorbtec (Pty) Ltd will
             explicitly ask when we need information that personally identifies
-            you or allows us to contact you ("personal information"). Generally
-            this information is requested when requesting a particular service
-            or product. You agree to provide accurate and current information,
-            and not to impersonate or misrepresent any person or entity or
-            falsely state or otherwise misrepresent your affiliation with anyone
-            or anything.
+            you or allows us to contact you (&quot;personal information&quot;).
+            Generally this information is requested when requesting a particular
+            service or product. You agree to provide accurate and current
+            information, and not to impersonate or misrepresent any person or
+            entity or falsely state or otherwise misrepresent your affiliation
+            with anyone or anything.
           </p>
           <p className="mb-2">
             The purposes for which Xorbtec (Pty) Ltd will use your personal
@@ -121,19 +121,19 @@ const TermsAndConditions = () => {
             confidentiality and non-use obligations in relation to your personal
             information. You are aware that information and data is
             automatically collected through the standard operation of the
-            Internet servers and through the use of "cookies." "Cookies" are
-            small text files a website can use to recognise repeat users,
-            facilitate the user's ongoing access to and use of the website and
-            allow a website to track usage behaviour and compile aggregate data
-            that will allow content improvements and targeted advertising.
-            Cookies are not programs that come onto your system and damage
-            files. Generally, cookies work by assigning a unique number to you
-            that has no meaning outside the assigning site. If you do not want
-            information collected through the use of cookies, there is a simple
-            procedure in most browsers that allows you to deny or accept the
-            cookie feature; however, you should note that cookies may be
-            necessary to provide you with certain features (e.g., customized
-            delivery of information) available on our Websites.
+            Internet servers and through the use of &quot;cookies.&quot;
+            &quot;Cookies&quot; are small text files a website can use to
+            recognise repeat users, facilitate the user&quot;s ongoing access to
+            and use of the website and allow a website to track usage behaviour
+            and compile aggregate data that will allow content improvements and
+            targeted advertising. Cookies are not programs that come onto your
+            system and damage files. Generally, cookies work by assigning a
+            unique number to you that has no meaning outside the assigning site.
+            If you do not want information collected through the use of cookies,
+            there is a simple procedure in most browsers that allows you to deny
+            or accept the cookie feature; however, you should note that cookies
+            may be necessary to provide you with certain features (e.g.,
+            customized delivery of information) available on our Websites.
           </p>
           <p className="mb-2">
             WHILST XORBTEC (PTY) LTD IS OF INTENT TO TAKE REASONABLE MEASURES TO
@@ -246,8 +246,8 @@ const TermsAndConditions = () => {
           </h2>
           <p className="mb-2">
             In compliance with section 43(1) of the Electronic Communications
-            and Transactions Act ("ECTA") 25 of 2002, the following information
-            is provided:
+            and Transactions Act (&quot;ECTA&quot;) 25 of 2002, the following
+            information is provided:
           </p>
           <ul className="list-disc list-inside pl-4 mb-2">
             <li>
