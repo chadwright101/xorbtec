@@ -137,7 +137,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                 >
                   <Image
-                    src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/logo/teamviewer-logo.png"
+                    src="/assets/logo/teamviewer-logo.png"
                     alt="Team Viewer logo"
                     height={60}
                     width={264}
@@ -154,7 +154,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                 >
                   <Image
-                    src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/xorbtec/discord-branding-2.png"
+                    src="/assets/discord-branding-2.png"
                     alt="Discord logo"
                     width={200}
                     height={100}
