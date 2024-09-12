@@ -18,7 +18,6 @@ const WhoWeAre = () => {
           <div>
             <ImageComponent
               file="logo-blue.png"
-              folder="logo"
               alt="Xorbtec Computer Services logo"
               pictureCssClasses="opacity-[7%] flex justify-center"
               cssClasses="max-w-[295px] h-auto -mb-[290px] phone:hidden"
@@ -45,7 +44,6 @@ const WhoWeAre = () => {
             </p>
           </div>
           <ImageComponent
-            folder="shop"
             file="shop-1a.png"
             cssClasses="-mr-[30px] h-auto w-auto my-10 tabletLarge:my-0 tabletLarge:w-[515px]"
             desktopSmall={600}
@@ -65,7 +63,6 @@ const WhoWeAre = () => {
             }
           >
             <ImageComponent
-              folder="graphics"
               file="laptop-11.png"
               cssClasses="hidden w-[684px] h-auto tabletLarge:block"
               alt="Xorbtec Computer Services - Laptop"
@@ -104,7 +101,6 @@ const WhoWeAre = () => {
                 }
               >
                 <ImageComponent
-                  folder="graphics"
                   file="speakers-1.png"
                   cssClasses="max-w-[325px] h-auto translate-x-12 tablet:translate-x-0 tabletLarge:hidden"
                   smallest={325}
@@ -118,7 +114,6 @@ const WhoWeAre = () => {
               </div>
               <div className="col-span-2 my-10 tablet:my-0 desktop:flex gap-x-6">
                 <ImageComponent
-                  folder="shop"
                   file="IMG_1591e.png"
                   cssClasses="w-full tablet:h-[300px] tabletLarge:h-[365px] max-w-[740px] tabletLarge:object-cover"
                   tabletLarge={200}
@@ -129,7 +124,6 @@ const WhoWeAre = () => {
                   height={1110}
                 />
                 <ImageComponent
-                  folder="shop"
                   file="shop-3a.png"
                   cssClasses="hidden w-auto desktop:block desktop:h-[365px] desktop:object-cover"
                   tabletLarge={200}

@@ -38,7 +38,6 @@ const OurBrands = () => {
       <div className="tablet:-translate-y-32" ref={elementRef}></div>
       <ImageComponent
         file="laptop-22.png"
-        folder="graphics"
         alt="Our Brands - Xorbtec Computer Services"
         width={800}
         height={550}

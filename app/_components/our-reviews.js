@@ -41,7 +41,6 @@ const OurReviews = () => {
       <div className="flex flex-col justify-end">
         <ImageComponent
           file="shop-4b.png"
-          folder="shop"
           alt="Storefront - Xorbtec Computer Services"
           width={680}
           height={306}
@@ -64,7 +63,6 @@ const OurReviews = () => {
         >
           <ImageComponent
             file="device-1a.png"
-            folder="graphics"
             alt="PC unit - Xorbtec Computer Services"
             width={800}
             height={868}

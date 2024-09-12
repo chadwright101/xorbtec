@@ -53,7 +53,6 @@ const Hero = () => {
               <ImageComponent
                 file="laptop-3.png"
                 upToTabletFile="laptop-3-with-lines.png"
-                folder="graphics"
                 pictureCssClasses="flex justify-center -mt-[475px] tablet:mt-0 tablet:block tablet:-ml-[120px] tabletLarge:-ml-[150px] desktop:-ml-[155px]"
                 cssClasses="min-w-[800px] ml-2 tablet:min-w-[450px] tablet:ml-0 tablet:max-w-[450px] tabletLarge:min-w-[450px] tabletLarge:max-w-[600px] desktop:min-w-[725px] desktop:max-w-[725px] h-auto"
                 alt="Xorbtec Computer Services - Laptop"
