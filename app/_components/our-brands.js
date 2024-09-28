@@ -21,7 +21,7 @@ const OurBrands = () => {
   const handleInView = () => setInView(true);
   const elementRef = useInView(handleInView);
   return (
-    <section className="py-20 bg-cover bg-center overflow-hidden max-w-[1550px] mx-auto bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:w-425,q-45/textured-background-mobile.png')] phone:bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:w-800,q-45/textured-background-mobile.png')] tablet:h-[520px] tablet:bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:w-1050,q-25/textured-background.png')] tabletLarge:bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:w-1400,q-45/textured-background.png')]">
+    <section className="py-20 bg-cover bg-center overflow-hidden max-w-[1550px] mx-auto bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:w-425,q-45/textured-background-mobile.png')] phone:bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:w-800,q-45/textured-background-mobile.png')] tablet:h-[520px] tablet:bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:w-1050,q-25/textured-background.png')] tabletLarge:bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:w-1400,q-45/textured-background.png')]">
       <Layout cssClasses="mb-10">
         <Heading
           length="w-[230px] phone:w-[264px]"

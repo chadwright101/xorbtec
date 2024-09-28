@@ -14,7 +14,7 @@ const Hero = () => {
   const elementRef = useInView(handleInView);
 
   return (
-    <section className="tabletLarge:pt-[115px] h-[685px] min-[350px]:h-[725px] phone:h-[760px] w-full max-w-[1550px] mx-auto bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:h-760,q-1/textured-background-4-mobile.png')] bg-cover bg-center overflow-hidden tablet:h-[480px] tablet:bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:w-1050,q-1/textured-background-4.png')] tabletLarge:h-[701px] tabletLarge:bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:w-1400,q-1/textured-background-4.png')] desktop:h-[790px]">
+    <section className="tabletLarge:pt-[115px] h-[685px] min-[350px]:h-[725px] phone:h-[760px] w-full max-w-[1550px] mx-auto bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:h-760,q-1/textured-background-4-mobile.png')] bg-cover bg-center overflow-hidden tablet:h-[480px] tablet:bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:w-1050,q-1/textured-background-4.png')] tabletLarge:h-[701px] tabletLarge:bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:w-1400,q-1/textured-background-4.png')] desktop:h-[790px]">
       <div className="tablet:flex flex-col items-center tablet:pt-8">
         <div className="tablet:flex">
           <div

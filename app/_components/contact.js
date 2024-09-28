@@ -37,7 +37,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-20 max-w-[1550px] mx-auto bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:w-450,q-5/textured-background-4-mobile.png')] min-[450px]:bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:w-800,q-5/textured-background-4-mobile.png')] bg-cover bg-center overflow-hidden tablet:bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:w-1050,q-5/textured-background-4.png')] tabletLarge:bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:w-1400,q-5/textured-background-4.png')]">
+    <section className="py-20 max-w-[1550px] mx-auto bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:w-450,q-5/textured-background-4-mobile.png')] min-[450px]:bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:w-800,q-5/textured-background-4-mobile.png')] bg-cover bg-center overflow-hidden tablet:bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:w-1050,q-5/textured-background-4.png')] tabletLarge:bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:w-1400,q-5/textured-background-4.png')]">
       <Layout cssClasses="desktopSmall:grid grid-cols-2 gap-x-10">
         <div>
           <Heading

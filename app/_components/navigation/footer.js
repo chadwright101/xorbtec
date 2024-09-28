@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="pb-8 mx-[30px] max-w-[1400px] tablet:flex tablet:justify-between tablet:items-center desktop:mx-auto">
         <div>
           <Image
-            src="https://ik.imagekit.io/thewrightdesigns/xorbtec/logo/tr:ar-1-1,h-116/logo-white.png"
+            src="https://ik.imagekit.io/thewrightdesigns/tr:ar-1-1,h-116/logo-white.png"
             alt="Xorbtec logo"
             className="h-[60px] w-auto hidden tablet:block"
             width={60}

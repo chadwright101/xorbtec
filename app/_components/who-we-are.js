@@ -12,7 +12,7 @@ const WhoWeAre = () => {
   const handleInView = () => setInView(true);
   const elementRef = useInView(handleInView);
   return (
-    <main className="py-20 max-w-[1550px] mx-auto bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:w-450,q-5/textured-background-1-mobile.png')] min-[450px]:bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:w-800,q-5/textured-background-1-mobile.png')] bg-cover bg-center overflow-hidden tablet:bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:w-1050,q-5/textured-background-1.png')] tabletLarge:bg-[url('https://ik.imagekit.io/thewrightdesigns/xorbtec/graphics/tr:w-1400,q-5/textured-background-1.png')]">
+    <main className="py-20 max-w-[1550px] mx-auto bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:w-450,q-5/textured-background-1-mobile.png')] min-[450px]:bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:w-800,q-5/textured-background-1-mobile.png')] bg-cover bg-center overflow-hidden tablet:bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:w-1050,q-5/textured-background-1.png')] tabletLarge:bg-[url('https://ik.imagekit.io/thewrightdesigns/tr:w-1400,q-5/textured-background-1.png')]">
       <Layout>
         <div className="tabletLarge:grid grid-cols-[1fr_515px] gap-x-8 mb-10">
           <div>

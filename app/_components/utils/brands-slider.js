@@ -30,7 +30,7 @@ const BrandsSlider = ({ row1Data, row2Data, cssClasses }) => {
             }`}
           >
             <Image
-              src={`https://ik.imagekit.io/thewrightdesigns/xorbtec/brands/tr:h-75,q-60/${url}`}
+              src={`https://ik.imagekit.io/thewrightdesigns/tr:h-75,q-60/${url}`}
               alt={alt}
               className="h-auto max-h-[50px] w-auto"
               width={100}
@@ -64,7 +64,7 @@ const BrandsSlider = ({ row1Data, row2Data, cssClasses }) => {
             }`}
           >
             <Image
-              src={`https://ik.imagekit.io/thewrightdesigns/xorbtec/brands/tr:h-60,q-60/${url}`}
+              src={`https://ik.imagekit.io/thewrightdesigns/tr:h-60,q-60/${url}`}
               alt={alt}
               className="h-auto w-auto max-h-[50px]"
               width={100}

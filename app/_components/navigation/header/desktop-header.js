@@ -38,7 +38,7 @@ const DesktopHeader = () => {
           ref={elementRef}
         >
           <Image
-            src="https://ik.imagekit.io/thewrightdesigns/xorbtec/logo/tr:ar-1-1,h-116/logo-blue.png"
+            src="https://ik.imagekit.io/thewrightdesigns/tr:ar-1-1,h-116/logo-blue.png"
             alt="Xorbtec logo"
             className="h-[58px] w-auto translate-y-1"
             loading="eager"
