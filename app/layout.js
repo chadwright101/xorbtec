@@ -16,7 +16,7 @@ export const metadata = {
     type: "website",
     url: "https://xorbtec.co.za",
     images: [
-      "https://ik.imagekit.io/thewrightdesigns/shop/tr:w-1200,q-75/shop-4b.png",
+      "https://ik.imagekit.io/thewrightdesigns/tr:w-1200,q-75/shop-4b.png",
     ],
     siteName: "Xorbtec Computer Services",
     locale: "en_ZA",
