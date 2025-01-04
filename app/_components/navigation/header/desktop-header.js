@@ -8,6 +8,7 @@ import useInView from "../../utils/use-in-view";
 
 import data from "../../../_data/general-data.json";
 import GradientBar from "@/app/_components/utils/gradient-bar";
+import Link from "next/link";
 
 const { navigation } = data;
 
@@ -28,7 +29,7 @@ const DesktopHeader = () => {
         <GradientBar cssClasses="fixed translate-x-[1475px]" />
       </div>
       <div className="mx-[30px] max-w-[1400px] flex justify-between items-end desktop:mx-auto overflow-hidden">
-        <a
+        <Link
           className={`flex items-center gap-x-4 hover:opacity-90 hover:scale-[98%] ease-in-out duration-300 ${
             inView
               ? "translate-y-0 opacity-100 ease-in-out duration-[750ms]"
@@ -60,7 +61,7 @@ const DesktopHeader = () => {
               Computer Services
             </h3>
           </div>
-        </a>
+        </Link>
         {pathname === "/" ? (
           <nav>
             <ul className="flex gap-x-6">
@@ -76,12 +77,12 @@ const DesktopHeader = () => {
             </ul>
           </nav>
         ) : (
-          <a
+          <Link
             href="/"
             className="text-subheading font-prototype uppercase hover:text-blue"
           >
             Back
-          </a>
+          </Link>
         )}
       </div>
       <hr className="max-w-[1550px] desktop:mx-auto bg-blue h-[2px] text-blue -mx-[30px] mt-2" />

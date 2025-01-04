@@ -8,6 +8,7 @@ import data from "../../../_data/general-data.json";
 import { scrollIntoView } from "./desktop-header";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
 
 const { navigation } = data;
 
@@ -20,7 +21,7 @@ const MobileHeader = ({ cssClasses }) => {
   return (
     <header className="bg-black pt-6 z-20 mb-8 tabletLarge:hidden">
       <div className="mx-[30px] max-w-[1400px] flex justify-between items-center overflow-hidden">
-        <a
+        <Link
           className={`flex items-center gap-x-4 ${
             inView
               ? "translate-y-0 opacity-100 ease-in-out duration-[750ms]"
@@ -51,7 +52,7 @@ const MobileHeader = ({ cssClasses }) => {
               Computer Services
             </h3>
           </div>
-        </a>
+        </Link>
         {pathname === "/" ? (
           <div className={`${cssClasses}`}>
             <div onClick={() => setIsOpen(true)} className="p-6 -m-6 z-10">
@@ -96,12 +97,12 @@ const MobileHeader = ({ cssClasses }) => {
             </nav>
           </div>
         ) : (
-          <a
+          <Link
             href="/"
             className="text-subheading font-prototype uppercase -m-4 p-4 hover:text-blue"
           >
             Back
-          </a>
+          </Link>
         )}
       </div>
     </header>
