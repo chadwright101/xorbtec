@@ -253,13 +253,14 @@ const TermsAndConditions = () => {
             <li>
               Full name and legal status of the website owner: Xorbtec (Pty) Ltd
             </li>
-            <li>Registration number: 2018/356137/07</li>
+            <li>Registration number: 2012/129582/07</li>
             <li>
-              Physical address: Xorbtec House, 123 Business Park, City, Country
+              Physical address: Shop 3, Beacon Isle Centre, Beacon Isle Drive,
+              Plettenberg Bay, 6600
             </li>
-            <li>Postal address: P.O. Box 1234, City, Country</li>
-            <li>Telephone number: +27 (0) 123 456 7890</li>
-            <li>Email address: info@xorbtec.com</li>
+            <li>Postal address: P.O. Box 2171, Plettenberg Bay, 6600</li>
+            <li>Telephone number: +27 (0) 44 533 5639</li>
+            <li>Email address: info@xorbtec.co.za</li>
           </ul>
         </section>
       </div>
